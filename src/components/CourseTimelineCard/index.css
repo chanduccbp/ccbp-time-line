@@ -1,0 +1,49 @@
+/* Write your CSS here */
+.course-cont {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'roboto';
+}
+
+.course-head {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.clock-cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #171f46;
+}
+
+.tags {
+  padding-left: 0px;
+  width: 100%;
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.tag {
+  background-color: lightgray;
+  padding: 5px;
+  border-radius: 3px;
+  font-weight: bold;
+  margin: 5px;
+}
+
+.course-title {
+  font-size: x-large;
+}
+
+.course-des {
+  font-size: large;
+}
